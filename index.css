@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-image: url("userlogin.jpg");
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    color: rgb(8, 8, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h2{
+    border: 2cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    color: white;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 200;
+    text-shadow: 2px black;
+}
+
+.submit:hover{
+    background-color: antiquewhite;
+    align-items: center;
+   
+}
+
+
+.password{
+
+  color: black;
+  
+}
+
+.container{
+    max-width: 400px;
+    align-self: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 4px black ;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(34, 42, 113, 0.133);
+    
+
+}

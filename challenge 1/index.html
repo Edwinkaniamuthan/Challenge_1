@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>    
+<title>Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>User Login</h2>
+      <form action="#" method="post" onsubmit="return checkPattern();">
+      <label for="email">User Email</label><br>
+      <input type="text" class="email" id="email" name="email" required><br>
+      <label for="password">Password</label><br>
+      <input type="text" class="password" id="password" name="password" required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*#?&]{8,}$"><br><br>
+      <button type="submit" class="submit" value="submit" onclick="myfunction()">Login</button>
+    </form>
+     </div>
+  </body>
+</html>
